@@ -1,0 +1,19 @@
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+    appearance: none !important;
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+}
+.btnA {
+    height: 57px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+    &.bg-FF416C-btn {
+        color: $color-FF416C;
+        border: 2px solid $color-FF416C;
+    }
+}
