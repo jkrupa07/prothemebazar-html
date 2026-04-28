@@ -17570,6 +17570,14 @@ textarea {
   color: #FF416C;
 }
 
+.text-03193f {
+  color: #03193f;
+}
+
+.text-808080 {
+  color: #808080;
+}
+
 .font12 {
   font-size: 12px;
 }
@@ -17592,6 +17600,10 @@ textarea {
 
 .font24 {
   font-size: 24px;
+}
+
+.font26 {
+  font-size: 26px;
 }
 
 .font28 {
@@ -17720,9 +17732,21 @@ button,
   padding-left: 20px;
   padding-right: 20px;
 }
-.btnA.bg-FF416C-btn {
-  color: #FF416C;
-  border: 2px solid #FF416C;
+.btnA.bg-03193f-btn {
+  background-color: transparent;
+  color: #03193f;
+  border: 2px solid #03193f;
+}
+.btnA.bg-03193f-btn:hover {
+  background-color: #03193f;
+  color: #fff;
+}
+
+.header-btn.bg-03193f-btn a {
+  color: #03193f;
+}
+.header-btn.bg-03193f-btn:hover a {
+  color: #fff;
 }
 
 .card-hover .img {
@@ -17734,7 +17758,6 @@ button,
 }
 
 .header-logo {
-  width: 140px;
   height: 100px;
 }
 
@@ -17754,8 +17777,25 @@ button,
   height: 30px !important;
 }
 
-.hero-img {
-  height: 850px;
+.footer .social-media li {
+  background-color: #000;
+}
+.footer .social-media li:first-child {
+  margin-left: 0px !important;
+}
+.footer .social-media li:last-child {
+  margin-left: 0px !important;
+}
+.footer .social-icon {
+  width: 40px;
+  height: 40px;
+}
+.footer .social-icon img {
+  height: 15px;
+}
+
+.header-logo {
+  height: 100px;
 }
 
 /*# sourceMappingURL=main.css.map */
