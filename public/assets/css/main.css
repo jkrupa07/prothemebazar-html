@@ -14455,7 +14455,7 @@ progress {
   font-family: "rubik-light";
   src: url("../../../public/assets/fonts/rubik-regular.ttf") format(truetype);
 }
-.rubik-regular {
+.rubik {
   font-family: "rubik-regular";
 }
 
@@ -17562,6 +17562,10 @@ textarea {
 /*******************************************************************************
 ******************************* ANIMATION VARIABLES ****************************
 *******************************************************************************/
+.bg-333333 {
+  background-color: #333333;
+}
+
 .text-848484 {
   color: #848484;
 }
@@ -17796,6 +17800,10 @@ button,
 
 .header-logo {
   height: 100px;
+}
+
+.hero-section {
+  height: 850px;
 }
 
 /*# sourceMappingURL=main.css.map */
